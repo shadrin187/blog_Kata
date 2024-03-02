@@ -1,0 +1,9 @@
+.article_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin: 0 auto;
+  padding: 24px 0;
+  list-style: none;
+  width: 65%;
+}

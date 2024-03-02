@@ -1,0 +1,92 @@
+.article {
+  background: #fff;
+  display: flex;
+  padding: 16px;
+  box-shadow: 0px 4px 12px 0px #00000026;
+}
+
+.article__info {
+  width: 80%;
+}
+
+.article__header {
+  display: flex;
+  align-items: self-start;
+}
+
+.article__title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #366EFF;
+  width: 90%;
+  margin: 0;
+}
+
+.article__title:hover {
+  cursor: pointer;
+  color: lime;
+}
+
+.article__likes {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-right: 60px;
+}
+
+.article__likes:hover{
+  cursor: pointer;
+}
+
+.article__likes_image{
+  width: 16px;
+  height: 16px;
+}
+
+.article__likes_counter {
+  font-size: 12px;
+  line-height: 28px;
+  margin-left: 6px;
+}
+
+.article__tags {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.article__description {
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000BF;
+  width: 95%;
+}
+
+.article__user {
+  display: flex;
+}
+
+.article__user_info{
+  display: flex;
+  flex-direction: column;
+}
+
+.article__user_name {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000D9;
+}
+
+.article__created_at {
+font-size: 12px;
+line-height: 22px;
+color: #00000080;
+}
+
+.article__user_image {
+  width: 46px;
+  height: 46px;
+  margin-left: 8px;
+}

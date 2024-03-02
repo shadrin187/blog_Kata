@@ -1,0 +1,10 @@
+.main {
+  background: #EBEEF3;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  padding-bottom: 32px;
+  justify-content: center;
+}

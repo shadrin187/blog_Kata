@@ -1,0 +1,47 @@
+.app__header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.header__title {
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 24px;
+  margin-right: auto;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.header__title:hover {
+  cursor: pointer;
+  color:#52C41A;
+}
+
+.header__sign_in {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.85)
+}
+
+.header__sign_in:hover {
+  cursor: pointer;
+  color: #52C41A;
+}
+
+.header__sign_up {
+  width: 109px;
+  height: 51px;
+  margin-left: 48px;
+  margin-right: 24px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #52C41A;
+  border: 1px solid #52C41A;
+  border-radius: 5px;
+}
+
+.header__sign_up:hover {
+  cursor: pointer;
+  background-color: #52C41A;
+  color: white;
+}

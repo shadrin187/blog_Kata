@@ -1,0 +1,10 @@
+.tag_item {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #00000080;
+  border: 1px solid #00000080;
+  border-radius: 2px;
+  margin-right: 12px;
+  padding: 4px;
+}
