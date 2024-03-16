@@ -21,6 +21,7 @@
   color: #366EFF;
   width: 90%;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .article__title:hover {
@@ -35,7 +36,7 @@
   margin-right: 60px;
 }
 
-.article__likes:hover{
+.article__likes_auth:hover{
   cursor: pointer;
 }
 
@@ -55,6 +56,19 @@
   display: flex;
   align-items: flex-start;
   padding: 0;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.tag_item {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #00000080;
+  border: 1px solid #00000080;
+  border-radius: 2px;
+  margin-right: 12px;
+  padding: 4px;
 }
 
 .article__description {
@@ -66,6 +80,7 @@
 
 .article__user {
   display: flex;
+  margin-left: auto;
 }
 
 .article__user_info{

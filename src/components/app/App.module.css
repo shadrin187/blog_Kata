@@ -1,10 +1,5 @@
 .main {
   background: #EBEEF3;
-}
-
-.pagination {
-  width: 100%;
-  display: flex;
-  padding-bottom: 32px;
-  justify-content: center;
+  padding: 24px 0;
+  min-height: calc(100vh - 80px);
 }
